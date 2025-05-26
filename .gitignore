@@ -17,3 +17,5 @@
 # terraformrc file
 terraform.rc
 .terraformrc
+
+.github/workflows/action2.yml
