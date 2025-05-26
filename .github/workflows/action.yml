@@ -37,10 +37,10 @@ jobs:
           only_warn: true
           sarif_upload: true
 
-      - name: Upload SARIF report
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: terrascan.sarif
+      # - name: Upload SARIF report
+      #   uses: github/codeql-action/upload-sarif@v3
+      #   with:
+      #     sarif_file: terrascan.sarif
 
   Terraform:
     name: Terraform Plan & Apply
